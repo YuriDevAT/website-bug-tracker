@@ -7,6 +7,19 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  - type: dropdown
+    id: is_regression
+    attributes:
+      label: Which website is affected?
+      description: Please share the website which is having the issue.
+      options:
+        - "Accessibility First"
+        - "Pokedex of Accessibility"
+        - "A11y & Inclusion Barcamp Vienna"
+        - "The Better Dev"
+        - "Julia Undeutsch Linktree"
+    validations:
+    required: true
   - type: input
     id: url
     attributes:
