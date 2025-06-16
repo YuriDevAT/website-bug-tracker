@@ -19,7 +19,7 @@ body:
         - "The Better Dev"
         - "Julia Undeutsch Linktree"
     validations:
-    required: true
+      required: true
   - type: input
     id: url
     attributes:
