@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: dropdown
-    id: is_regression
+    id: is_website
     attributes:
       label: Which website is affected?
       description: Please share the website which is having the issue.
