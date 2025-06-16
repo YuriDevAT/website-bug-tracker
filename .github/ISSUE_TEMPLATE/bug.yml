@@ -21,7 +21,7 @@ body:
         - "The Better Dev"
         - "Julia Undeutsch Linktree"
     validations:
-    required: true
+      required: true
   - type: textarea
     id: screenshots
     attributes:
