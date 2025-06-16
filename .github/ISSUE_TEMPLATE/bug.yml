@@ -9,6 +9,19 @@ body:
       description: A brief description of the question or issue, also include what you tried and what didn't work
     validations:
       required: true
+  - type: dropdown
+    id: is_regression
+    attributes:
+      label: Which website is affected?
+      description: Please share the website which is having the bug.
+      options:
+        - "Accessibility First"
+        - "Pokedex of Accessibility"
+        - "A11y & Inclusion Barcamp Vienna"
+        - "The Better Dev"
+        - "Julia Undeutsch Linktree"
+    validations:
+    required: true
   - type: textarea
     id: screenshots
     attributes:
